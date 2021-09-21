@@ -1,0 +1,78 @@
+.td-icon{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: table-cell;
+}
+.bs-checkbox{
+    padding-right: 10px !important;
+    padding-left: 5px !important;
+}
+.checked {
+    color: orange;
+  }
+.img-icon{
+    width: 26px;
+    margin-right: 10px;
+    align-items: center;
+    margin-left: 3px;
+}
+.table{
+    border: 1px solid #dddddd;
+    margin-top: 54px;
+}
+.table thead tr{
+    background-color: #006df04d;
+}
+/*input[type="checkbox"], input[type="radio"] {
+    height: 0;
+    width:0;
+}*/
+
+
+
+
+/* The bs-checkbox */
+.bs-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+  
+/* Hide the browser's default checkbox */
+.bs-checkbox input {  
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Show the checkmark when checked */
+.bs-checkbox input:checked ~ .bs-checkbox span {
+  color: orange;
+}
+.bs-checkbox input:checked ~ span {
+  color: orange;
+}
+.td-icon{
+  width: 5%;
+}
+
+/*sortable table*/
+
+
+.th-inner img{
+  width: 21px;
+  opacity: 0.9;
+  /* color: red; */
+  /* height: 12px; */
+  cursor: pointer;
+  padding: 0 3px;
+}

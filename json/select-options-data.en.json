@@ -1,0 +1,21 @@
+[
+    {
+        "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/NYCS-bull-trans-B.svg/480px-NYCS-bull-trans-B.svg.png",
+        "name":"Bitcoin",
+        "price":"30000000",
+        "idname":"BTC"
+    },
+    {
+        "icon":"https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+        "name":"Ethereum",
+        "price":"50000000",
+        "idname":"ETH"
+    },
+    {
+        "icon":"https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+        "name":"Ethereum",
+        "price":"50000000",
+        "idname":"eth"
+    }
+]
+

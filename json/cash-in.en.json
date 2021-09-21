@@ -1,0 +1,10 @@
+[
+    {
+        "icon":"https://cdn.arzdigital.com/uploads/assets/coins/icons/tether.png",
+        "name":"tether",
+        "price":"50000000",
+        "idname":"tether",
+        "error":"not enough Tether"
+    }
+]
+

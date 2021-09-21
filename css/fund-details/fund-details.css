@@ -1,0 +1,208 @@
+.vodiapicker{
+  display: none; 
+}
+.vodiapicker2{
+  display: none; 
+}
+
+.a , .a2{
+  padding-left: 0px;
+  position: absolute;
+    background-color: white;
+    top: 40px;
+    width: 50%;
+    border: 1px red solid;
+    text-align: center;
+    margin: auto;
+    color: #303030;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    right: 25%;
+    outline: none;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.a img, .btn-select img , .a2 img , .btn-select2 img{
+  width: 33px;
+  padding: 4px;
+}
+
+.a li , .a2 li{
+  list-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.a li:hover , .a2 li:hover{
+ background-color: #F4F3F3;
+}
+
+.a li img , .a2 li img{
+  margin: 5px;
+}
+
+
+/* item list */
+
+.b , .b2{
+  display: none;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 5px;
+  
+}
+
+.open{
+  display: show !important;
+}
+.openb .b , .openb2 .b2{
+  border: none;
+}
+.openb p , .openb2 p{
+  border: 1px solid blue;
+}
+
+.btn-select , .btn-select2{
+  margin: 10px auto;
+  width: 70%;
+  padding: 4px 12px;
+  line-height: 1.42857143;
+  border: 1px solid #ccc;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  position: relative;
+}
+.btn-select li , .btn-select2 li{
+  list-style: none;
+  padding-bottom: 0px;
+}
+
+.btn-select:hover li , .btn-select2:hover li{
+  margin-left: 0px;
+}
+
+.btn-select:hover , .btn-select2:hover{
+  border: 1px solid blue;
+}
+
+.btn-select:focus , .btn-select2:focus{
+   outline:none;
+}
+
+
+/* cash in modal*/
+.cash-btn{
+  text-align: center;
+  margin: 7% auto;
+}
+.cash-btn button{
+  width: 15%;
+  height: 42px;
+}
+.cash-btn button a{
+  color: white;
+}
+.cash-in-modal{
+  text-align: center;
+  margin: auto;
+}
+.icon-img{
+  width: 85px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.icon-img img{
+  width: 100%;
+}
+.fund-details .modal-content{
+  display: flex;
+}
+.fund-details .modal-body{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.fund-details .modal-footer{
+  width: 30%;
+}
+.price-form{
+  text-align: center;
+  margin: auto;
+}
+.price-input{
+  width: 58%;
+  text-align: center;
+  margin: 14px auto;
+  height: 31px;
+  border: 1px solid #80808094;
+}
+.modal-footer{
+  width: 40%;
+  margin-top: 9%;
+  border-top: 0;
+}
+.modal-footer a:first-child{
+  display: block;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color: white;
+  height: 42px;
+  line-height: 39px;
+  text-align: center;
+  margin: auto;
+  width: 71%;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+.modal-footer a:last-child{
+  display: block;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  color: white;
+  height: 42px;
+  line-height: 39px;
+  text-align: center;
+  margin: auto;
+  width: 71%;
+  border-radius: 5px;
+}
+.modal-body h5{
+  font-weight: 700;
+  background-color: #0000ff26;
+  padding: 9px;
+  width: 54%;
+  text-align: center;
+  margin: 6px auto;
+}
+.cash-out-body .modal-footer {
+  width: 30%;
+  margin-top: 12%;
+}
+.cash-out-body .price-input {
+  width: 75%;
+  text-align: center;
+  margin: 14px auto;
+  height: 31px;
+  border: 1px solid #80808094;
+}
+.cash-out-body h5 {
+  background-color: #0000ff26;
+  padding: 9px;
+  width: 70%;
+  text-align: center;
+  margin: 6px auto;
+}
+.price-form p{
+  display: none;
+  width: 78%;
+  color: red;
+  font-weight: 12px;
+  font-size: 12px;
+  font-weight: 800;
+}
